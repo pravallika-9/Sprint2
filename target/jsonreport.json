@@ -1,0 +1,2388 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify Login Functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3014928700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is able to enter into the uniform application",
+            "match": {
+              "location": "signupdefination.user_is_able_to_enter_into_the_uniform_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6187793101,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter Usename with \"admin\" and password with \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 50
+                }
+              ],
+              "location": "signupdefination.user_enter_Usename_with_and_password_with(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6046020499,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "signupdefination.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4158435900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigates to Dashboard",
+            "match": {
+              "location": "signupdefination.user_navigates_to_Dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6169143199,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on marketing menu",
+            "match": {
+              "location": "signupdefination.user_click_on_marketing_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3659485400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on marketing under marketing menu",
+            "match": {
+              "location": "signupdefination.user_click_on_marketing_under_marketing_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3028023500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User on marketing tracking page",
+            "match": {
+              "location": "signupdefination.user_on_marketing_tracking_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T12:10:47.751Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9809677801,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Verify Filter button by entering all the field on marketing tracking",
+        "description": "",
+        "id": "uniform-feature;verify-filter-button-by-entering-all-the-field-on-marketing-tracking;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 131881300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3016731400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Admin is on marketing tracking page",
+            "match": {
+              "location": "signupdefination.admin_is_on_marketing_tracking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3294951600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enter \"PRAVALLIKA\" \"2021-09-08\" and \"613835a2c33e9\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PRAVALLIKA\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"2021-09-08\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"613835a2c33e9\"",
+                  "offset": 41
+                }
+              ],
+              "location": "signupdefination.user_enter_and_field(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3577729001,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User click on filter button to see the result",
+            "match": {
+              "location": "signupdefination.user_click_on_filter_button_to_see_the_result()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Filter"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify Login Functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3014363900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is able to enter into the uniform application",
+            "match": {
+              "location": "signupdefination.user_is_able_to_enter_into_the_uniform_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6151793700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter Usename with \"admin\" and password with \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 50
+                }
+              ],
+              "location": "signupdefination.user_enter_Usename_with_and_password_with(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7635820899,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "signupdefination.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9906159800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigates to Dashboard",
+            "match": {
+              "location": "signupdefination.user_navigates_to_Dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6196007800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on marketing menu",
+            "match": {
+              "location": "signupdefination.user_click_on_marketing_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4243960900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on marketing under marketing menu",
+            "match": {
+              "location": "signupdefination.user_click_on_marketing_under_marketing_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3019495401,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User on marketing tracking page",
+            "match": {
+              "location": "signupdefination.user_on_marketing_tracking_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T12:11:39.858Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9143259299,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Verify Filter button by entering all the field on marketing tracking",
+        "description": "",
+        "id": "uniform-feature;verify-filter-button-by-entering-all-the-field-on-marketing-tracking;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 114569600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3019894901,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Admin is on marketing tracking page",
+            "match": {
+              "location": "signupdefination.admin_is_on_marketing_tracking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3304213800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enter \"\" \"2021-09-02\" and \"\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"2021-09-02\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 31
+                }
+              ],
+              "location": "signupdefination.user_enter_and_field(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3573482800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User click on filter button to see the result",
+            "match": {
+              "location": "signupdefination.user_click_on_filter_button_to_see_the_result()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Filter"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify Login Functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3018867599,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is able to enter into the uniform application",
+            "match": {
+              "location": "signupdefination.user_is_able_to_enter_into_the_uniform_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6144509400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter Usename with \"admin\" and password with \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 50
+                }
+              ],
+              "location": "signupdefination.user_enter_Usename_with_and_password_with(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6025200600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "signupdefination.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4072345700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigates to Dashboard",
+            "match": {
+              "location": "signupdefination.user_navigates_to_Dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6225906799,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on marketing menu",
+            "match": {
+              "location": "signupdefination.user_click_on_marketing_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3634066200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on marketing under marketing menu",
+            "match": {
+              "location": "signupdefination.user_click_on_marketing_under_marketing_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3018391900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User on marketing tracking page",
+            "match": {
+              "location": "signupdefination.user_on_marketing_tracking_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T12:12:39.184Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11760499599,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Verify Filter button by entering all the field on marketing tracking",
+        "description": "",
+        "id": "uniform-feature;verify-filter-button-by-entering-all-the-field-on-marketing-tracking;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 94077700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3023182999,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Admin is on marketing tracking page",
+            "match": {
+              "location": "signupdefination.admin_is_on_marketing_tracking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3226192700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enter \"asdfgmnb\" \"\" and \"\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"asdfgmnb\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 29
+                }
+              ],
+              "location": "signupdefination.user_enter_and_field(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3976691500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User click on filter button to see the result",
+            "match": {
+              "location": "signupdefination.user_click_on_filter_button_to_see_the_result()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Filter"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify Login Functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3015317500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is able to enter into the uniform application",
+            "match": {
+              "location": "signupdefination.user_is_able_to_enter_into_the_uniform_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6276245200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter Usename with \"admin\" and password with \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 50
+                }
+              ],
+              "location": "signupdefination.user_enter_Usename_with_and_password_with(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5931219100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "signupdefination.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3015204900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigates to Dashboard",
+            "match": {
+              "location": "signupdefination.user_navigates_to_Dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6187990300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on marketing menu",
+            "match": {
+              "location": "signupdefination.user_click_on_marketing_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4319273100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on marketing under marketing menu",
+            "match": {
+              "location": "signupdefination.user_click_on_marketing_under_marketing_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3019350200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User on marketing tracking page",
+            "match": {
+              "location": "signupdefination.user_on_marketing_tracking_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T12:13:33.407Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9536978800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Verify Filter button by entering all the field on marketing tracking",
+        "description": "",
+        "id": "uniform-feature;verify-filter-button-by-entering-all-the-field-on-marketing-tracking;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 105778500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3021010001,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Admin is on marketing tracking page",
+            "match": {
+              "location": "signupdefination.admin_is_on_marketing_tracking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3267883099,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enter \"\" \"\" and \"6131f8d0a6b8esdfghujio9876543wsdfvbmnbvcxzsrtyuiop9876543333erfg\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"6131f8d0a6b8esdfghujio9876543wsdfvbmnbvcxzsrtyuiop9876543333erfg\"",
+                  "offset": 21
+                }
+              ],
+              "location": "signupdefination.user_enter_and_field(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3648104299,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User click on filter button to see the result",
+            "match": {
+              "location": "signupdefination.user_click_on_filter_button_to_see_the_result()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Filter"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify Login Functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3015241799,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is able to enter into the uniform application",
+            "match": {
+              "location": "signupdefination.user_is_able_to_enter_into_the_uniform_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6187064800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter Usename with \"admin\" and password with \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 50
+                }
+              ],
+              "location": "signupdefination.user_enter_Usename_with_and_password_with(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7856520501,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "signupdefination.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3223805801,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigates to Dashboard",
+            "match": {
+              "location": "signupdefination.user_navigates_to_Dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6187741300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on marketing menu",
+            "match": {
+              "location": "signupdefination.user_click_on_marketing_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3684872300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on marketing under marketing menu",
+            "match": {
+              "location": "signupdefination.user_click_on_marketing_under_marketing_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3022971200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User on marketing tracking page",
+            "match": {
+              "location": "signupdefination.user_on_marketing_tracking_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T12:14:24.754Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8663603800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Admin Verify Add button",
+        "description": "",
+        "id": "uniform-feature;admin-verify-add-button;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 103562301,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3623819400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User click on add button",
+            "match": {
+              "location": "signupdefination.user_click_on_add_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3168037500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User need to enter \"mngfdfg\"  and \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mngfdfg\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 34
+                }
+              ],
+              "location": "signupdefination.user_need_to_enter_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3972509301,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User click on save button",
+            "match": {
+              "location": "signupdefination.user_click_on_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4290501,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User User navigates to Marketing Tracking page",
+            "match": {
+              "location": "signupdefination.user_User_navigates_to_Marketing_Tracking_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34955300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "verify sucess msg",
+            "match": {
+              "location": "signupdefination.verify_sucess_msg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddButton"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify Login Functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3013144700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is able to enter into the uniform application",
+            "match": {
+              "location": "signupdefination.user_is_able_to_enter_into_the_uniform_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6163671100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter Usename with \"admin\" and password with \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 50
+                }
+              ],
+              "location": "signupdefination.user_enter_Usename_with_and_password_with(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5926471000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "signupdefination.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3029804400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigates to Dashboard",
+            "match": {
+              "location": "signupdefination.user_navigates_to_Dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6206509599,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on marketing menu",
+            "match": {
+              "location": "signupdefination.user_click_on_marketing_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3542729001,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on marketing under marketing menu",
+            "match": {
+              "location": "signupdefination.user_click_on_marketing_under_marketing_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3007498100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User on marketing tracking page",
+            "match": {
+              "location": "signupdefination.user_on_marketing_tracking_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T12:15:17.506Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8683331800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "Admin Verify return button",
+        "description": "",
+        "id": "uniform-feature;admin-verify-return-button",
+        "after": [
+          {
+            "result": {
+              "duration": 125058300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4531892400,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User is in add page",
+            "match": {
+              "location": "signupdefination.user_is_in_add_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4654086400,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User click on return button",
+            "match": {
+              "location": "signupdefination.user_click_on_return_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5030002301,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User navigates to Marketing Tracking page",
+            "match": {
+              "location": "signupdefination.user_navigates_to_Marketing_Tracking_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CancelButton"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify Login Functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3016270101,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is able to enter into the uniform application",
+            "match": {
+              "location": "signupdefination.user_is_able_to_enter_into_the_uniform_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6171023400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter Usename with \"admin\" and password with \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 50
+                }
+              ],
+              "location": "signupdefination.user_enter_Usename_with_and_password_with(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5849702700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "signupdefination.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4165147601,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigates to Dashboard",
+            "match": {
+              "location": "signupdefination.user_navigates_to_Dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6187473501,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on marketing menu",
+            "match": {
+              "location": "signupdefination.user_click_on_marketing_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3582754600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on marketing under marketing menu",
+            "match": {
+              "location": "signupdefination.user_click_on_marketing_under_marketing_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3025908499,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User on marketing tracking page",
+            "match": {
+              "location": "signupdefination.user_on_marketing_tracking_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T12:16:11.421Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9445145300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "Verify Delete button",
+        "description": "",
+        "id": "uniform-feature;verify-delete-button",
+        "after": [
+          {
+            "result": {
+              "duration": 121404100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.fail(Assert.java:64)\r\n\tat StepDefination.signupdefination.user_click_on_check_box_to_delete_the_row(signupdefination.java:415)\r\n\tat ✽.User click on check box to delete the row(file:src/test/java/feature/Signup.feature:45)\r\n",
+              "duration": 5076172301,
+              "status": "failed"
+            },
+            "line": 45,
+            "name": "User click on check box to delete the row",
+            "match": {
+              "location": "signupdefination.user_click_on_check_box_to_delete_the_row()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11800,
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "User click on delete button",
+            "match": {
+              "location": "signupdefination.user_click_on_delete_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7400,
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "User can see the alert msg for delete",
+            "match": {
+              "location": "signupdefination.user_can_see_the_alert_msg_for_delete()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4500,
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "User click on ok in alert msg to delete the row",
+            "match": {
+              "location": "signupdefination.user_click_on_ok_in_alert_msg_to_delete_the_row()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3800,
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "Selected row deleted Successfully",
+            "match": {
+              "location": "signupdefination.selected_row_deleted_Successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeleteButton"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify Login Functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3012851200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is able to enter into the uniform application",
+            "match": {
+              "location": "signupdefination.user_is_able_to_enter_into_the_uniform_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6179396300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter Usename with \"admin\" and password with \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 50
+                }
+              ],
+              "location": "signupdefination.user_enter_Usename_with_and_password_with(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5870035201,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "signupdefination.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3019841400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigates to Dashboard",
+            "match": {
+              "location": "signupdefination.user_navigates_to_Dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6184775600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on marketing menu",
+            "match": {
+              "location": "signupdefination.user_click_on_marketing_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4511169300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on marketing under marketing menu",
+            "match": {
+              "location": "signupdefination.user_click_on_marketing_under_marketing_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3027606000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User on marketing tracking page",
+            "match": {
+              "location": "signupdefination.user_on_marketing_tracking_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T12:16:58.067Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8968713901,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 61,
+        "name": "Verify Edit option",
+        "description": "",
+        "id": "uniform-feature;verify-edit-option;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 124987901,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3632817701,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "User click on Edit",
+            "match": {
+              "location": "signupdefination.user_click_on_Edit()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5078382699,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "User navigates to edit page",
+            "match": {
+              "location": "signupdefination.user_navigates_to_edit_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3197319900,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "User modify the \"mnhfgfg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mnhfgfg\"",
+                  "offset": 16
+                }
+              ],
+              "location": "signupdefination.user_modify_the_and(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4681482600,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "USer click on save option",
+            "match": {
+              "location": "signupdefination.user_click_on_save_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3020207601,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "User naviagates to Tracking page",
+            "match": {
+              "location": "signupdefination.user_naviagates_to_Tracking_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EditButton"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify Login Functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3020069300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is able to enter into the uniform application",
+            "match": {
+              "location": "signupdefination.user_is_able_to_enter_into_the_uniform_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6173388300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter Usename with \"admin\" and password with \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 50
+                }
+              ],
+              "location": "signupdefination.user_enter_Usename_with_and_password_with(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5933512901,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "signupdefination.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3159015299,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigates to Dashboard",
+            "match": {
+              "location": "signupdefination.user_navigates_to_Dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6163698200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on marketing menu",
+            "match": {
+              "location": "signupdefination.user_click_on_marketing_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4245421500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on marketing under marketing menu",
+            "match": {
+              "location": "signupdefination.user_click_on_marketing_under_marketing_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3018995699,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User on marketing tracking page",
+            "match": {
+              "location": "signupdefination.user_on_marketing_tracking_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T12:17:58.580Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8388447700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 64,
+        "name": "Verify sorting",
+        "description": "",
+        "id": "uniform-feature;verify-sorting",
+        "after": [
+          {
+            "result": {
+              "duration": 107677400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3017504900,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "Admin is on marketing tracking page",
+            "match": {
+              "location": "signupdefination.admin_is_on_marketing_tracking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3652596200,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "User click on Campaign Name in result section",
+            "match": {
+              "location": "signupdefination.user_click_on_Campaign_Name_in_result_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104859799,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "User can see the result in desc order based on Campaign Name",
+            "match": {
+              "location": "signupdefination.user_can_see_the_result_in_desc_order_based_on_Campaign_Name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3632230700,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "User click on Code in result section",
+            "match": {
+              "location": "signupdefination.user_click_on_Code_in_result_secetion()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113141101,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "User can see the Code in sorted order",
+            "match": {
+              "location": "signupdefination.user_can_see_the_Code_in_sorted_order()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3615094200,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "User click on Date Added in result section",
+            "match": {
+              "location": "signupdefination.user_click_on_Date_Added_in_result_secetion()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 114158900,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "User can see the Date Added in sorted order",
+            "match": {
+              "location": "signupdefination.user_can_see_the_Date_Added_in_sorted_order()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sorting"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify Login Functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3005256401,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is able to enter into the uniform application",
+            "match": {
+              "location": "signupdefination.user_is_able_to_enter_into_the_uniform_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6212135400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter Usename with \"admin\" and password with \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 50
+                }
+              ],
+              "location": "signupdefination.user_enter_Usename_with_and_password_with(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5850168600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "signupdefination.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3252824599,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigates to Dashboard",
+            "match": {
+              "location": "signupdefination.user_navigates_to_Dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6187396700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on marketing menu",
+            "match": {
+              "location": "signupdefination.user_click_on_marketing_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3518868599,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on marketing under marketing menu",
+            "match": {
+              "location": "signupdefination.user_click_on_marketing_under_marketing_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3006050001,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User on marketing tracking page",
+            "match": {
+              "location": "signupdefination.user_on_marketing_tracking_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T12:18:53.041Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8859682000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 74,
+        "name": "Verify Pagination",
+        "description": "",
+        "id": "uniform-feature;verify-pagination",
+        "after": [
+          {
+            "result": {
+              "duration": 137782499,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3062865700,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "User find the pagination",
+            "match": {
+              "location": "signupdefination.user_find_the_pagination()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3627146500,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "user click on symbol",
+            "match": {
+              "location": "signupdefination.user_click_on_symbol()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3635508001,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "user click on Symbol",
+            "match": {
+              "location": "signupdefination.user_click_on_Symbol()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3026960300,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "user navigated to previous page",
+            "match": {
+              "location": "signupdefination.user_navigated_to_previous_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@pagination"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify Login Functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3006994900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is able to enter into the uniform application",
+            "match": {
+              "location": "signupdefination.user_is_able_to_enter_into_the_uniform_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6225090899,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter Usename with \"admin\" and password with \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 50
+                }
+              ],
+              "location": "signupdefination.user_enter_Usename_with_and_password_with(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6093045700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "signupdefination.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7068563199,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigates to Dashboard",
+            "match": {
+              "location": "signupdefination.user_navigates_to_Dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6231413901,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on marketing menu",
+            "match": {
+              "location": "signupdefination.user_click_on_marketing_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3590899600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on marketing under marketing menu",
+            "match": {
+              "location": "signupdefination.user_click_on_marketing_under_marketing_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3025708299,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User on marketing tracking page",
+            "match": {
+              "location": "signupdefination.user_on_marketing_tracking_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T12:19:46.425Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8462598700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 90,
+        "name": "Verify the Add button with invalid data",
+        "description": "",
+        "id": "uniform-feature;verify-the-add-button-with-invalid-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 101008399,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4266514500,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "User click on add button",
+            "match": {
+              "location": "signupdefination.user_click_on_add_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3400098799,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "User need to enter \"\" with null value and \"mnbvcxdsdfghjkl/mnbvcsdfgolkjhgfdsqwertyuiop!@#$%^\u0026kjfghnjm,hgfdCVBNM,liuytREWDFBnm*\u0026^%$dvbnm,liuytresxcvbnmnnbsgxvbsmxmnhsgxbmxmxskjgxyhbxns,.,xljchsagvcxm,lzoayisshaml,a;xiljsyfsbjkmxljhufxjb,cx;xkziufxzmx.,,xbyxgjkmxz,xnyxgsk,mzxhayfskalkslanxanvgdnksmjghdl,mcvdhjndlklmdsbhdwjkmds,xng\" with more than two fifty seven characters",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"mnbvcxdsdfghjkl/mnbvcsdfgolkjhgfdsqwertyuiop!@#$%^\u0026kjfghnjm,hgfdCVBNM,liuytREWDFBnm*\u0026^%$dvbnm,liuytresxcvbnmnnbsgxvbsmxmnhsgxbmxmxskjgxyhbxns,.,xljchsagvcxm,lzoayisshaml,a;xiljsyfsbjkmxljhufxjb,cx;xkziufxzmx.,,xbyxgjkmxz,xnyxgsk,mzxhayfskalkslanxanvgdnksmjghdl,mcvdhjndlklmdsbhdwjkmds,xng\"",
+                  "offset": 42
+                }
+              ],
+              "location": "signupdefination.user_need_to_enter_with_null_value_and_with_more_than_two_fifty_seven_characters(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4155934099,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "User click on save button",
+            "match": {
+              "location": "signupdefination.user_click_on_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3058620501,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "verify Error msg",
+            "match": {
+              "location": "signupdefination.verify_Error_msg()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.fail(Assert.java:64)\r\n\tat StepDefination.signupdefination.verify_sucess_msg(signupdefination.java:354)\r\n\tat ✽.verify sucess msg(file:src/test/java/feature/Signup.feature:86)\r\n",
+              "duration": 13961300,
+              "status": "failed"
+            },
+            "line": 86,
+            "name": "verify sucess msg",
+            "match": {
+              "location": "signupdefination.verify_sucess_msg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Bug1"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify Login Functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3007064500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is able to enter into the uniform application",
+            "match": {
+              "location": "signupdefination.user_is_able_to_enter_into_the_uniform_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6230877599,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter Usename with \"admin\" and password with \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 50
+                }
+              ],
+              "location": "signupdefination.user_enter_Usename_with_and_password_with(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5785416300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "signupdefination.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3024672901,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigates to Dashboard",
+            "match": {
+              "location": "signupdefination.user_navigates_to_Dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6198302300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on marketing menu",
+            "match": {
+              "location": "signupdefination.user_click_on_marketing_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3624738400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on marketing under marketing menu",
+            "match": {
+              "location": "signupdefination.user_click_on_marketing_under_marketing_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3005076800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User on marketing tracking page",
+            "match": {
+              "location": "signupdefination.user_on_marketing_tracking_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T12:20:45.128Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8606895700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 101,
+        "name": "Verify the Add button with invalid data",
+        "description": "",
+        "id": "uniform-feature;verify-the-add-button-with-invalid-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 109800800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4226514999,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "User click on add button",
+            "match": {
+              "location": "signupdefination.user_click_on_add_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.fail(Assert.java:64)\r\n\tat StepDefination.signupdefination.user_need_to_enter_and_with_more_than_two_fifty_seven_characters(signupdefination.java:754)\r\n\tat ✽.User need to enter \"njfvbhpr\" and \"23456789000000987654323456yhnbvcxzaqwertyuiol.,mnbvcxzzzaqwertyuioo0987654321qazxcvbnm,.,poiuy65432qwsxcvbnmkiuyt5432345678jxbystd7wudnsjshvyeiwjdnsvsgdujncjdbchdvchbcushdinvyhkxmxhagduwd244856315mnbf234567asdfghjklzxcvbnmm987654\" with more than two fifty seven characters(file:src/test/java/feature/Signup.feature:96)\r\n",
+              "duration": 3399565701,
+              "status": "failed"
+            },
+            "line": 96,
+            "name": "User need to enter \"njfvbhpr\" and \"23456789000000987654323456yhnbvcxzaqwertyuiol.,mnbvcxzzzaqwertyuioo0987654321qazxcvbnm,.,poiuy65432qwsxcvbnmkiuyt5432345678jxbystd7wudnsjshvyeiwjdnsvsgdujncjdbchdvchbcushdinvyhkxmxhagduwd244856315mnbf234567asdfghjklzxcvbnmm987654\" with more than two fifty seven characters",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"njfvbhpr\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"23456789000000987654323456yhnbvcxzaqwertyuiol.,mnbvcxzzzaqwertyuioo0987654321qazxcvbnm,.,poiuy65432qwsxcvbnmkiuyt5432345678jxbystd7wudnsjshvyeiwjdnsvsgdujncjdbchdvchbcushdinvyhkxmxhagduwd244856315mnbf234567asdfghjklzxcvbnmm987654\"",
+                  "offset": 34
+                }
+              ],
+              "location": "signupdefination.user_need_to_enter_and_with_more_than_two_fifty_seven_characters(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4400,
+              "status": "skipped"
+            },
+            "line": 97,
+            "name": "User click on save button",
+            "match": {
+              "location": "signupdefination.user_click_on_save_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Bug2"
+          }
+        ]
+      }
+    ],
+    "name": "Uniform feature",
+    "description": "",
+    "id": "uniform-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/Signup.feature",
+    "tags": []
+  }
+]

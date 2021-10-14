@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="12" time="644.573386">
+    <testcase classname="Uniform feature" name="Verify Filter button by entering all the field on marketing tracking" time="52.10201">
+        <system-out><![CDATA[Given User is able to enter into the uniform application....................passed
+When User enter Usename with "admin" and password with "admin@123"..........passed
+And Click on Login button...................................................passed
+And User navigates to Dashboard.............................................passed
+When User click on marketing menu...........................................passed
+And User click on marketing under marketing menu............................passed
+Then User on marketing tracking page........................................passed
+Given Admin is on marketing tracking page...................................passed
+When User enter "PRAVALLIKA" "2021-09-08" and "613835a2c33e9" field.........passed
+Then User click on filter button to see the result..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Uniform feature" name="Verify Filter button by entering all the field on marketing tracking 2" time="59.323991">
+        <system-out><![CDATA[Given User is able to enter into the uniform application....................passed
+When User enter Usename with "admin" and password with "admin@123"..........passed
+And Click on Login button...................................................passed
+And User navigates to Dashboard.............................................passed
+When User click on marketing menu...........................................passed
+And User click on marketing under marketing menu............................passed
+Then User on marketing tracking page........................................passed
+Given Admin is on marketing tracking page...................................passed
+When User enter "" "2021-09-02" and "" field................................passed
+Then User click on filter button to see the result..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Uniform feature" name="Verify Filter button by entering all the field on marketing tracking 3" time="54.221451">
+        <system-out><![CDATA[Given User is able to enter into the uniform application....................passed
+When User enter Usename with "admin" and password with "admin@123"..........passed
+And Click on Login button...................................................passed
+And User navigates to Dashboard.............................................passed
+When User click on marketing menu...........................................passed
+And User click on marketing under marketing menu............................passed
+Then User on marketing tracking page........................................passed
+Given Admin is on marketing tracking page...................................passed
+When User enter "asdfgmnb" "" and "" field..................................passed
+Then User click on filter button to see the result..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Uniform feature" name="Verify Filter button by entering all the field on marketing tracking 4" time="51.345152">
+        <system-out><![CDATA[Given User is able to enter into the uniform application....................passed
+When User enter Usename with "admin" and password with "admin@123"..........passed
+And Click on Login button...................................................passed
+And User navigates to Dashboard.............................................passed
+When User click on marketing menu...........................................passed
+And User click on marketing under marketing menu............................passed
+Then User on marketing tracking page........................................passed
+Given Admin is on marketing tracking page...................................passed
+When User enter "" "" and "6131f8d0a6b8esdfghujio9876543wsdfvbmnbvcxzsrtyuiop9876543333erfg" field.passed
+Then User click on filter button to see the result..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Uniform feature" name="Admin Verify Add button" time="52.749731">
+        <system-out><![CDATA[Given User is able to enter into the uniform application....................passed
+When User enter Usename with "admin" and password with "admin@123"..........passed
+And Click on Login button...................................................passed
+And User navigates to Dashboard.............................................passed
+When User click on marketing menu...........................................passed
+And User click on marketing under marketing menu............................passed
+Then User on marketing tracking page........................................passed
+Given User click on add button..............................................passed
+And User need to enter "mngfdfg"  and ""....................................passed
+And User click on save button...............................................passed
+And User User navigates to Marketing Tracking page..........................passed
+Then verify sucess msg......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Uniform feature" name="Admin Verify return button" time="53.914775">
+        <system-out><![CDATA[Given User is able to enter into the uniform application....................passed
+When User enter Usename with "admin" and password with "admin@123"..........passed
+And Click on Login button...................................................passed
+And User navigates to Dashboard.............................................passed
+When User click on marketing menu...........................................passed
+And User click on marketing under marketing menu............................passed
+Then User on marketing tracking page........................................passed
+Given User is in add page...................................................passed
+When User click on return button............................................passed
+Then User navigates to Marketing Tracking page..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Uniform feature" name="Verify Delete button" time="46.641875">
+        <failure message="junit.framework.AssertionFailedError&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:55)&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:64)&#13;&#10;&#9;at StepDefination.signupdefination.user_click_on_check_box_to_delete_the_row(signupdefination.java:415)&#13;&#10;&#9;at ✽.User click on check box to delete the row(file:src/test/java/feature/Signup.feature:45)&#13;&#10;"><![CDATA[Given User is able to enter into the uniform application....................passed
+When User enter Usename with "admin" and password with "admin@123"..........passed
+And Click on Login button...................................................passed
+And User navigates to Dashboard.............................................passed
+When User click on marketing menu...........................................passed
+And User click on marketing under marketing menu............................passed
+Then User on marketing tracking page........................................passed
+Given User click on check box to delete the row.............................failed
+When User click on delete button............................................skipped
+When User can see the alert msg for delete..................................skipped
+And User click on ok in alert msg to delete the row.........................skipped
+Then Selected row deleted Successfully......................................skipped
+
+StackTrace:
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.fail(Assert.java:64)
+	at StepDefination.signupdefination.user_click_on_check_box_to_delete_the_row(signupdefination.java:415)
+	at ✽.User click on check box to delete the row(file:src/test/java/feature/Signup.feature:45)
+]]></failure>
+    </testcase>
+    <testcase classname="Uniform feature" name="Verify Edit option" time="60.510305">
+        <system-out><![CDATA[Given User is able to enter into the uniform application....................passed
+When User enter Usename with "admin" and password with "admin@123"..........passed
+And Click on Login button...................................................passed
+And User navigates to Dashboard.............................................passed
+When User click on marketing menu...........................................passed
+And User click on marketing under marketing menu............................passed
+Then User on marketing tracking page........................................passed
+Given User click on Edit....................................................passed
+When User navigates to edit page............................................passed
+When User modify the "mnhfgfg"..............................................passed
+And USer click on save option...............................................passed
+Then User naviagates to Tracking page.......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Uniform feature" name="Verify sorting" time="54.460461">
+        <system-out><![CDATA[Given User is able to enter into the uniform application....................passed
+When User enter Usename with "admin" and password with "admin@123"..........passed
+And Click on Login button...................................................passed
+And User navigates to Dashboard.............................................passed
+When User click on marketing menu...........................................passed
+And User click on marketing under marketing menu............................passed
+Then User on marketing tracking page........................................passed
+Given Admin is on marketing tracking page...................................passed
+When User click on Campaign Name in result section..........................passed
+And User can see the result in desc order based on Campaign Name............passed
+When User click on Code in result section...................................passed
+And User can see the Code in sorted order...................................passed
+When User click on Date Added in result section.............................passed
+Then User can see the Date Added in sorted order............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Uniform feature" name="Verify Pagination" time="53.383313">
+        <system-out><![CDATA[Given User is able to enter into the uniform application....................passed
+When User enter Usename with "admin" and password with "admin@123"..........passed
+And Click on Login button...................................................passed
+And User navigates to Dashboard.............................................passed
+When User click on marketing menu...........................................passed
+And User click on marketing under marketing menu............................passed
+Then User on marketing tracking page........................................passed
+Given User find the pagination..............................................passed
+When user click on symbol...................................................passed
+And user click on Symbol....................................................passed
+Then user navigated to previous page........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Uniform feature" name="Verify the Add button with invalid data" time="58.700873">
+        <failure message="junit.framework.AssertionFailedError&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:55)&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:64)&#13;&#10;&#9;at StepDefination.signupdefination.verify_sucess_msg(signupdefination.java:354)&#13;&#10;&#9;at ✽.verify sucess msg(file:src/test/java/feature/Signup.feature:86)&#13;&#10;"><![CDATA[Given User is able to enter into the uniform application....................passed
+When User enter Usename with "admin" and password with "admin@123"..........passed
+And Click on Login button...................................................passed
+And User navigates to Dashboard.............................................passed
+When User click on marketing menu...........................................passed
+And User click on marketing under marketing menu............................passed
+Then User on marketing tracking page........................................passed
+Given User click on add button..............................................passed
+When User need to enter "" with null value and "mnbvcxdsdfghjkl/mnbvcsdfgolkjhgfdsqwertyuiop!@#$%^&kjfghnjm,hgfdCVBNM,liuytREWDFBnm*&^%$dvbnm,liuytresxcvbnmnnbsgxvbsmxmnhsgxbmxmxskjgxyhbxns,.,xljchsagvcxm,lzoayisshaml,a;xiljsyfsbjkmxljhufxjb,cx;xkziufxzmx.,,xbyxgjkmxz,xnyxgsk,mzxhayfskalkslanxanvgdnksmjghdl,mcvdhjndlklmdsbhdwjkmds,xng" with more than two fifty seven characters.passed
+And User click on save button...............................................passed
+And verify Error msg........................................................passed
+Then verify sucess msg......................................................failed
+
+StackTrace:
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.fail(Assert.java:64)
+	at StepDefination.signupdefination.verify_sucess_msg(signupdefination.java:354)
+	at ✽.verify sucess msg(file:src/test/java/feature/Signup.feature:86)
+]]></failure>
+    </testcase>
+    <testcase classname="Uniform feature" name="Verify the Add button with invalid data 2" time="47.219449">
+        <failure message="junit.framework.AssertionFailedError&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:55)&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:64)&#13;&#10;&#9;at StepDefination.signupdefination.user_need_to_enter_and_with_more_than_two_fifty_seven_characters(signupdefination.java:754)&#13;&#10;&#9;at ✽.User need to enter &quot;njfvbhpr&quot; and &quot;23456789000000987654323456yhnbvcxzaqwertyuiol.,mnbvcxzzzaqwertyuioo0987654321qazxcvbnm,.,poiuy65432qwsxcvbnmkiuyt5432345678jxbystd7wudnsjshvyeiwjdnsvsgdujncjdbchdvchbcushdinvyhkxmxhagduwd244856315mnbf234567asdfghjklzxcvbnmm987654&quot; with more than two fifty seven characters(file:src/test/java/feature/Signup.feature:96)&#13;&#10;"><![CDATA[Given User is able to enter into the uniform application....................passed
+When User enter Usename with "admin" and password with "admin@123"..........passed
+And Click on Login button...................................................passed
+And User navigates to Dashboard.............................................passed
+When User click on marketing menu...........................................passed
+And User click on marketing under marketing menu............................passed
+Then User on marketing tracking page........................................passed
+Given User click on add button..............................................passed
+When User need to enter "njfvbhpr" and "23456789000000987654323456yhnbvcxzaqwertyuiol.,mnbvcxzzzaqwertyuioo0987654321qazxcvbnm,.,poiuy65432qwsxcvbnmkiuyt5432345678jxbystd7wudnsjshvyeiwjdnsvsgdujncjdbchdvchbcushdinvyhkxmxhagduwd244856315mnbf234567asdfghjklzxcvbnmm987654" with more than two fifty seven characters.failed
+And User click on save button...............................................skipped
+
+StackTrace:
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.fail(Assert.java:64)
+	at StepDefination.signupdefination.user_need_to_enter_and_with_more_than_two_fifty_seven_characters(signupdefination.java:754)
+	at ✽.User need to enter "njfvbhpr" and "23456789000000987654323456yhnbvcxzaqwertyuiol.,mnbvcxzzzaqwertyuioo0987654321qazxcvbnm,.,poiuy65432qwsxcvbnmkiuyt5432345678jxbystd7wudnsjshvyeiwjdnsvsgdujncjdbchdvchbcushdinvyhkxmxhagduwd244856315mnbf234567asdfghjklzxcvbnmm987654" with more than two fifty seven characters(file:src/test/java/feature/Signup.feature:96)
+]]></failure>
+    </testcase>
+</testsuite>
